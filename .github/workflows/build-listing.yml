@@ -1,10 +1,5 @@
 name: Build Repo Listing
 
-env:
-  listPublishDirectory: template/Website
-  pathToTemplate: template
-  pathToCi: template/ci
-  
 on: 
   workflow_dispatch:
   workflow_run:
@@ -13,17 +8,6 @@ on:
       - completed
   release:
      types: [published, created, edited, unpublished, deleted, released]
-
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-  
-# Allow one concurrent deployment
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
 
 jobs:
   
