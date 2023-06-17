@@ -10,6 +10,10 @@
   "license": "Zlib",
   "type": "tool",
   "url" : "https://github.com/Narazaka/UnusedBonesByReferencesTool.git#v1.0.0",
+  "vpmDependencies": {
+    "com.vrchat.avatars": "^3.1.0",
+    "net.narazaka.unity.bone-tools.bone-selector": "^1.0.0"
+  },
   "legacyFiles": {
     "Assets\\Narazaka\\Unity\\Editor\\Util\\UnusedBonesByReferences.cs": "6ed511cc2ebc0bf409be398459fc3b22",
     "Assets\\Narazaka\\Unity\\Editor\\Util\\UnusedBonesByReferencesTool.cs": "c976705572f0ddf44b70199564c18443"
