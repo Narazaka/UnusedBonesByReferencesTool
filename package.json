@@ -1,6 +1,6 @@
 {
   "name": "net.narazaka.unity.bone-tools.unused-bones-by-references-tool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "UnusedBonesByReferencesTool",
   "description": "Unused Bone Deleter (EditorOnly)",
   "author": {
